@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Button, Table ,Modal} from "react-bootstrap";
 import { openModal, deleteData, editData } from "../Services/Actions";
-import ModalAddEdit from "../Components/ModalAddEdit";
+import ModalAddEdit from "./ModalAddEdit";
 const ListTODO = () => {
   const dispatch = useDispatch();
   const listData = useSelector((state) => state?.data);

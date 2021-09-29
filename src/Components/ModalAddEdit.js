@@ -129,7 +129,7 @@ const lengthEdit=Object.keys(editData).length
                   value="Sports"
                   onChange={handleHobbyChange}
                 />
-                <label for="Sports"> Sports</label>
+                <label htmlFor="Sports"> Sports</label>
                 <input
                   type="checkbox"
                   id="Reading"
@@ -137,7 +137,7 @@ const lengthEdit=Object.keys(editData).length
                   value="Reading"
                   onChange={handleHobbyChange}
                 />
-                <label for="Reading"> Reading</label>
+                <label htmlFor="Reading"> Reading</label>
                 <input
                   type="checkbox"
                   id="Music"

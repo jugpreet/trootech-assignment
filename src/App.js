@@ -1,6 +1,6 @@
 
 import './App.css';
-import ListTODO from './list/list';
+import ListTODO from './Components/list';
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
